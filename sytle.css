@@ -46,47 +46,33 @@ border-radius: 5px;
     display: inline-block;
     word-wrap: break-word;
 }
+
 .mid{
 text-align: center;
 }
+
 .send-container{
     display: block;
     margin: auto;
     text-align: center;
     max-width: 985px;
     width: 100%;
-    /* position: absolute; */
     bottom: 3%;
 
 border-style: none solid solid solid;
 border-width: 5px;
 border-color: white;
-border-radius: 5px;
-
 }
+
 #msg{
     width: 55%;
     border: 2px solid black;
     height: 28px;
 }
+
 #submit{
     cursor: pointer;
     border: 2px solid black;
-    height: 25px;
-    width: 50px;
+    height: 28px;
+    width: 55%;
 }
-
-.rainbow-text {
-    background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
-    background-size: 800% 800%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: rainbow 8s ease infinite;
-  }
-  
-  @keyframes rainbow { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 25%}
-    100%{background-position:0% 50%}
-  }
