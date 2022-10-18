@@ -65,12 +65,14 @@ border-color: white;
 }
 
 #msg{
+    margin-top: 2px;
+    height: 28px;
     width: 55%;
     border: 2px solid black;
-    height: 28px;
 }
 
 #submit{
+    margin-top: 2px;
     cursor: pointer;
     border: 2px solid black;
     height: 28px;
